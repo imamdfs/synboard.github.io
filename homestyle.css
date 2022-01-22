@@ -53,6 +53,62 @@
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
 
+/* Workinspace*/
+.workingspace {
+  margin-top: 120px;
+  text-align: center;
+  padding-left: 100px;
+}
+
+.workingspace h3 {
+  font-size: 52px;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin: top 30px;
+}
+
+.workingspace h3 span {
+  font-weight: 500;
+}
+
+.workingspace p {
+  font-size: 18px;
+  color: #acacaa;
+  font-weight: 200;
+  margin: 30px 0;
+}
+
+/* workingsecond */
+.workingsecond {
+  padding-top: 30px;
+  /* margin-top: 120px; */
+  text-align: center;
+}
+
+.workingsecond h3 {
+  font-size: 52px;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin: top 30px;
+}
+
+.workingsecond h3 span {
+  font-weight: 500;
+}
+
+.workingsecond p {
+  font-size: 18px;
+  color: #acacaa;
+  font-weight: 200;
+  margin: 30px 0;
+}
+
+.workingsecond img {
+  margin-left: 100px;
+}
+
+/* Footer */
+
 /* Desktop Version */
 @media (min-width: 992px) {
   .navbar-brand,
@@ -83,6 +139,14 @@
 
   .jumbotron .text {
     font-size: 62px;
+  }
+
+  .workingspace {
+    text-align: left;
+  }
+
+  .workingsecond {
+    text-align: left;
   }
 }
 
